@@ -1,0 +1,42 @@
+.modal,
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content-wrapper {
+    z-index: 1;
+    background-color: #bbb;
+    border-radius: 3rem;
+}
+.modal-content {
+    margin: 4rem;
+    background-color: #bbb;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.modal-content label, .modal-actions button {
+    font-weight: 600;
+}
+button {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    padding: .5rem;
+}
+.modal-content input {
+    margin-bottom: .5rem;
+}
